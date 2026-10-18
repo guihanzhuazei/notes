@@ -1,0 +1,65 @@
+:root, .dark {
+  color-scheme: light;
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --vp-font-family-mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: #eff6ff;
+  --vp-c-bg: #fff;
+  --vp-c-bg-soft: #f7f7f7;
+  --vp-c-bg-alt: #fff;
+  --vp-c-bg-elv: #fff;
+  --vp-c-divider: #e8e8e8;
+  --vp-c-border: #ddd;
+  --vp-c-text-1: #111;
+  --vp-c-text-2: #666;
+  --vp-c-text-3: #888;
+  --vp-nav-bg-color: #fff;
+  --vp-code-block-bg: #f7f7f7;
+  --vp-code-color: #111;
+  --vp-layout-max-width: 1000px;
+}
+.VPNavBar .container { max-width: 776px; margin: 0 auto; }
+.VPNavBarTitle .title { font-size: 20px; font-weight: 500; letter-spacing: -.06em; }
+.VPNavBarSearch { flex-grow: 0 !important; }
+.VPNavBar .content-body { justify-content: flex-end; }
+.VPNavBarSearch .DocSearch-Button-Placeholder,
+.VPNavBarSearch .DocSearch-Button-Keys,
+.VPNavBar .hamburger, .VPNavBar .extra { display: none !important; }
+.VPNavBarSearch .DocSearch-Button { min-width: 36px; width: 36px; height: 36px; padding: 8px; border: 0; background: transparent; }
+.VPNavBarSearch .DocSearch-Button:hover { color: #2563eb; }
+.VPNavBarSearch .DocSearch-Button .DocSearch-Search-Icon { width: 17px; height: 17px; }
+.notebook-home { max-width: 840px; margin: 0 auto; padding: 56px 32px 80px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.post-row { display: grid; grid-template-columns: 125px 1fr; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid #e8e8e8; }
+.post-row time { color: #888; font: 12px/1.6 var(--vp-font-family-mono); }
+.post-row h2 { margin: 0; font-size: 18px; line-height: 1.6; font-weight: 450; letter-spacing: -.02em; }
+.post-row h2 a { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: #111; text-decoration: none; }
+.post-row h2 a:hover { color: #2563eb; }
+.post-row svg { flex: 0 0 16px; width: 16px; height: 16px; color: #2563eb; }
+.post-filters { display: flex; flex-wrap: wrap; gap: 18px; margin: 0 0 20px; }
+.post-filters button { padding: 3px 0; font-size: 12px; color: #888; border-bottom: 1px solid transparent; }
+.post-filters button.active { color: #2563eb; border-bottom-color: #2563eb; }
+.empty-notes { color: #888; font-size: 13px; }
+.vp-doc h1 { font-size: 28px; font-weight: 550; letter-spacing: -.025em; }
+.vp-doc h2 { font-weight: 550; }
+.vp-doc p, .vp-doc li { line-height: 1.95; }
+.vp-doc a { color: #2563eb; }
+.vp-doc details { margin: 24px 0; padding: 14px 16px; border: 1px solid #e8e8e8; border-radius: 0; background: #fff; }
+.vp-doc summary { cursor: pointer; font-size: 14px; font-weight: 500; }
+.vp-doc details[open] summary { margin-bottom: 14px; }
+.vp-doc div[class*='language-'] { border: 1px solid #e8e8e8; border-radius: 0; }
+.vp-doc div[class*='language-'] code, .vp-doc div[class*='language-'] code span { color: #111 !important; }
+.vp-doc details div[class*='language-'] { margin-bottom: 0; }
+.post-byline { display: flex; gap: 10px; margin-top: 12px; margin-bottom: 24px; color: #888; font-size: 12px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 1px solid #2563eb; outline-offset: 3px; }
+@media(max-width: 640px) {
+  .notebook-home { padding: 32px 24px 60px; }
+  .post-row { grid-template-columns: 1fr; gap: 7px; padding: 20px 0; }
+  .post-row time { font-size: 11px; }
+  .post-row h2 { font-size: 18px; }
+  .vp-doc h1 { font-size: 25px; }
+  .vp-doc details { padding: 12px; }
+}
+@media(prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }
