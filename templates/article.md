@@ -9,6 +9,8 @@ draft: true
 
 # 文章标题
 
+<AuthorByline date="2026-10-18" category="智能车" />
+
 在这里开始写正文。准备公开时，把上面的 draft 改为 false。
 
 ## 第一个主题

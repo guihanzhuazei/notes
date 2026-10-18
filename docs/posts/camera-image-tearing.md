@@ -9,7 +9,7 @@ draft: false
 
 # 摄像头采集到的图像分屏撕裂？
 
-<div class="post-byline"><time datetime="2026-10-18">2026.10.18</time><span>·</span><span>智能车</span></div>
+<AuthorByline date="2026-10-18" category="智能车" />
 
 今天排查并解决了一位同学的摄像头采集图像撕裂问题。
 
