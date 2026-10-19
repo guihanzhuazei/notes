@@ -17,13 +17,13 @@ draft: false
 
 该模块需要使用 **2×5 排座**，排座间距为 **2.54 mm**。
 
-<img src="./images/spi-wifi/pinout.png" alt="模块引脚定义" />
+![模块引脚定义](./images/spi-wifi/pinout.png)
 
 ### 2. 主控引脚连接
 
 主控引脚可以参考逐飞提供的默认引脚配置。相关定义和示例代码可在逐飞的 Gitee 开源仓库中查找。
 
-<img src="./images/spi-wifi/default-pins.png" alt="无线模块 SPI 默认引脚分配" />
+![无线模块 SPI 默认引脚分配](./images/spi-wifi/default-pins.png)
 
 ## 软件部分
 
@@ -31,7 +31,7 @@ draft: false
 
 软件部分可以从逐飞提供的示例工程入手，先完成模块初始化和通信测试，再逐步加入参数传输、无线图像传输等功能。使用逐飞上位机后，可以在电脑端无线接收主控发送的数据和高帧率图像，调试效率直接坐火箭。
 
-<img src="./images/spi-wifi/demo-projects.png" alt="逐飞示例工程" />
+![逐飞示例工程](./images/spi-wifi/demo-projects.png)
 
 ### 2. 可扩展方向
 

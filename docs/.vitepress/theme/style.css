@@ -46,7 +46,7 @@
 .vp-doc h2 { font-weight: 550; }
 .vp-doc p, .vp-doc li { line-height: 1.95; }
 .vp-doc a { color: #2563eb; }
-.vp-doc p img { display: block; border: 1px solid #e8e8e8; border-radius: 0; }
+.vp-doc p img { border: 1px solid #e8e8e8; border-radius: 0; }
 .vp-doc details { margin: 24px 0; padding: 14px 16px; border: 1px solid #e8e8e8; border-radius: 0; background: #fff; }
 .vp-doc summary { cursor: pointer; font-size: 14px; font-weight: 500; }
 .vp-doc details[open] summary { margin-bottom: 14px; }
